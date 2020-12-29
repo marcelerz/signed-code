@@ -1,0 +1,18 @@
+{
+	"eslint.validate": ["javascript", "typescript"],
+	"editor.formatOnType": false,
+	"formattingToggle.affects": ["formatOnPaste", "formatOnSave"],
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"typescript.tsdk": "node_modules/typescript/lib",
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`signedCodeManualSectionPlaceholder generates the code uses the code 1`] = `"// <Manual-Section START init-code>let thereA = 'light';// <Manual-Section END>"`;
+
+exports[`signedCodeManualSectionPlaceholder generates the code uses the default code 1`] = `"// <Manual-Section START init-code>let thereC = 'light';// <Manual-Section END>"`;
+
+exports[`signedCodeManualSectionPlaceholder generates the code uses the plain code 1`] = `"// <Manual-Section START init-code>// <Manual-Section END>"`;
+
+exports[`signedCodeManualSectionPlaceholder generates the code uses the previous code 1`] = `"// <Manual-Section START init-code>let thereB = 'light';// <Manual-Section END>"`;

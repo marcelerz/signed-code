@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`signedCodeBuilder accepts a command annotation 1`] = `
+"let thereA = 'light';
+// @generated /usr/bin/foo -g -lrt
+let thereB = 'light';
+"
+`;
+
+exports[`signedCodeBuilder accepts a generic placeholder 1`] = `
+"let thereA = 'light';
+// @signed-hash e1cd25cffbe02a6556a818e034341145
+let thereB = 'light';
+"
+`;
+
+exports[`signedCodeBuilder accepts a hash annotation 1`] = `
+"let thereA = 'light';
+// @signed-hash e1cd25cffbe02a6556a818e034341145
+let thereB = 'light';
+"
+`;
+
+exports[`signedCodeBuilder accepts a manual section with code 1`] = `
+"let thereA = 'light';
+// <Manual-Section START init-code>let thereC = 'light';// <Manual-Section END>
+let thereB = 'light';
+"
+`;
+
+exports[`signedCodeBuilder accepts a manual section with custom code 1`] = `
+"let thereA = 'light';
+// <Manual-Section START init-code>let thereD = 'light';// <Manual-Section END>
+let thereB = 'light';
+"
+`;
+
+exports[`signedCodeBuilder accepts a manual section with default code 1`] = `
+"let thereA = 'light';
+// <Manual-Section START init-code>let thereC = 'light';// <Manual-Section END>
+let thereB = 'light';
+"
+`;
+
+exports[`signedCodeBuilder accepts a version annotation 1`] = `
+"let thereA = 'light';
+// @signed-version 436
+let thereB = 'light';
+"
+`;
+
+exports[`signedCodeBuilder accepts previous code 1`] = `
+"let thereA = 'light';
+// <Manual-Section START init-code>let thereD = 'light';// <Manual-Section END>
+let thereB = 'light';
+"
+`;

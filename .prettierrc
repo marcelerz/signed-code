@@ -1,0 +1,9 @@
+{
+	"trailingComma": "all",
+	"printWidth": 80,
+	"useTabs": true,
+	"tabWidth": 2,
+	"bracketSpacing": true,
+	"insertPragma": true,
+	"endOfLine": "auto"
+}
