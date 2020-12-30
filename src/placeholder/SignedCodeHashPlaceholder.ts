@@ -4,7 +4,7 @@
  * @format
  */
 
-import { getHashAnnotation } from "SignedCode";
+import { getHashAnnotation } from "../SignedCode";
 import SignedCodePlaceholder from "./SignedCodePlaceholder";
 
 /**

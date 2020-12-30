@@ -8,12 +8,12 @@
 
 import nullThrows from "sundryjs/assert/nullThrows";
 import invariant from "sundryjs/assert/invariant";
-import SignedCodeBuilder from "SignedCodeBuilder";
-import SignedCodePlaceholder from "placeholder/SignedCodePlaceholder";
-import SignedCodeCommandPlaceholder from "placeholder/SignedCodeCommandPlaceholder";
-import SignedCodeHashPlaceholder from "placeholder/SignedCodeHashPlaceholder";
-import SignedCodeManualSectionPlaceholder from "placeholder/SignedCodeManualSectionPlaceholder";
-import SignedCodeVersionPlaceholder from "placeholder/SignedCodeVersionPlaceholder";
+import SignedCodeBuilder from "./SignedCodeBuilder";
+import SignedCodePlaceholder from "./placeholder/SignedCodePlaceholder";
+import SignedCodeCommandPlaceholder from "./placeholder/SignedCodeCommandPlaceholder";
+import SignedCodeHashPlaceholder from "./placeholder/SignedCodeHashPlaceholder";
+import SignedCodeManualSectionPlaceholder from "./placeholder/SignedCodeManualSectionPlaceholder";
+import SignedCodeVersionPlaceholder from "./placeholder/SignedCodeVersionPlaceholder";
 
 const signedCode = (
 	strs: TemplateStringsArray,

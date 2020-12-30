@@ -7,14 +7,14 @@
  * @format
  */
 
-import type { ManualSectionInfo } from "SignedCode";
+import type { ManualSectionInfo } from "./SignedCode";
 
-import SignedCodePlaceholder from "placeholder/SignedCodePlaceholder";
-import SignedCodeCommandPlaceholder from "placeholder/SignedCodeCommandPlaceholder";
-import SignedCodeHashPlaceholder from "placeholder/SignedCodeHashPlaceholder";
-import SignedCodeManualSectionPlaceholder from "placeholder/SignedCodeManualSectionPlaceholder";
-import SignedCodeVersionPlaceholder from "placeholder/SignedCodeVersionPlaceholder";
-import SignedCode from "SignedCode";
+import SignedCodePlaceholder from "./placeholder/SignedCodePlaceholder";
+import SignedCodeCommandPlaceholder from "./placeholder/SignedCodeCommandPlaceholder";
+import SignedCodeHashPlaceholder from "./placeholder/SignedCodeHashPlaceholder";
+import SignedCodeManualSectionPlaceholder from "./placeholder/SignedCodeManualSectionPlaceholder";
+import SignedCodeVersionPlaceholder from "./placeholder/SignedCodeVersionPlaceholder";
+import SignedCode from "./SignedCode";
 
 class SignedCodeBuilder {
 	private code: Array<string | SignedCodePlaceholder>;

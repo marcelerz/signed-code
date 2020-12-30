@@ -4,7 +4,7 @@
  * @format
  */
 
-import { getManualSection } from "SignedCode";
+import { getManualSection } from "../SignedCode";
 import SignedCodePlaceholder from "./SignedCodePlaceholder";
 
 /**

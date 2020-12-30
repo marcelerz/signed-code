@@ -4,7 +4,7 @@
  * @format
  */
 
-import { getVersionAnnotation } from "SignedCode";
+import { getVersionAnnotation } from "../SignedCode";
 import SignedCodePlaceholder from "./SignedCodePlaceholder";
 
 /**

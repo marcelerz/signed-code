@@ -1,6 +1,6 @@
 {
 	"name": "signed-code",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A template system for code generation.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
