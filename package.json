@@ -1,11 +1,11 @@
 {
 	"name": "signed-code",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A template system for code generation.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"dependencies": {
-		"sundryjs": "^0.1.2"
+		"sundryjs": "0.1.4"
 	},
 	"devDependencies": {
 		"@babel/cli": "7.12.10",
@@ -53,5 +53,9 @@
 		"publish": "npm publish --access public ./dist"
 	},
 	"author": "Marcel Erz <me@marcelerz.com>",
-	"license": "MIT"
+	"bugs": {
+		"url": "https://github.com/marcelerz/signed-code/issues"
+	},
+	"homepage": "https://github.com/marcelerz/signed-code",
+	"license": "SEE LICENSE IN LICENSE"
 }
