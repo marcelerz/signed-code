@@ -113,3 +113,28 @@ const values = [1, 2, 3, 4];
 
 export default values;
 ```
+
+## Check if code needs re-generation
+
+```TS
+import signedCode from "signed-code";
+import SignedCode from "signed-code/SignedCode";
+import SignedCodeBuilder from "signed-code/SignedCodeBuilder";
+
+// Define the code template through the template function `signedCode`
+const codeBuilder = (values): SignedCodeBuilder => signedCode`...`;
+
+// Load already existing code
+const code = await SignedCode.load("/tmp/export.js");
+
+// Get the hash from the old code (from the hash annotation)
+const previousHash = code.getContentHash();
+const currentHash = code.getDerivedHash();
+// Compare previousHash and currentHash
+
+// Or check directly:
+const isInvalid = code.isInvalid();
+
+// Resign code, getting serialized string
+const source = code.resign();
+```
