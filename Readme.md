@@ -91,8 +91,13 @@ This code generates:
 /**
  * Some sample code
  *
+ * // Explain how to re-generate the code
  * @generated npm run gencode
+ *
+ * // Add required hash to recognize when code is out of date
  * @signed-hash 70541b0db6e93343bc6569604e0c4585
+ *
+ * // Add version to force re-generation when needed
  * @signed-version 1
  */
 
