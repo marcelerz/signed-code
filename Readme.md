@@ -24,8 +24,6 @@ Add the module to your package.json dev-dependencies:
 npm install --save-dev signed-code
 ```
 
-Import a module as follows:
-
 ## Quick Start
 
 ```TS
