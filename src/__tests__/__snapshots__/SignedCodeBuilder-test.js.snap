@@ -51,7 +51,9 @@ let thereB = 'light';
 
 exports[`signedCodeBuilder accepts previous code 1`] = `
 "let thereA = 'light';
-// <Manual-Section START init-code>let thereD = 'light';// <Manual-Section END>
+// <Manual-Section START init-code>
+    console.log("42 is the answer!");
+    // <Manual-Section END>
 let thereB = 'light';
 "
 `;

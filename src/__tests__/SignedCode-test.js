@@ -22,13 +22,13 @@ import TestModule from "TestModule";
 TestModule.someCall(24, 67);
 
 function printEverything() {
-    // <Manual-Section init-code START>
+    // <Manual-Section START init-code>
     console.log("42 is the answer!");
     // <Manual-Section END>
 }
 
 function someOtherFunction() {
-    // <Manual-Section more-code START>
+    // <Manual-Section START more-code>
     console.log("I don't know");
     // <Manual-Section END>
 }
