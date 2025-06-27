@@ -1,3 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`signedCode gets the manual sections 1`] = `Object {}`;
+exports[`signedCode gets the manual sections 1`] = `Object {
+  "init-code": Object {
+    "code": "\n    console.log(\"42 is the answer!\");\n    ",
+  },
+  "more-code": Object {
+    "code": "\n    console.log(\"I don't know\");\n    ",
+  },
+}`;
