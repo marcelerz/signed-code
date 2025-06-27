@@ -37,7 +37,7 @@ class SignedCodeBuilder {
 	}
 
 	/**
-	 * Add a snipet of code.
+	 * Add a snippet of code.
 	 */
 	addCode(code: string): this {
 		this.code.push(code);
