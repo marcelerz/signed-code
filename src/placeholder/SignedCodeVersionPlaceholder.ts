@@ -8,7 +8,7 @@ import { getVersionAnnotation } from "../SignedCode";
 import SignedCodePlaceholder from "./SignedCodePlaceholder";
 
 /**
- * Class to handle the hash annotation as placeholder.
+ * Class to handle the version annotation as placeholder.
  */
 export default class SignedCodeVersionPlaceholder extends SignedCodePlaceholder {
 	private version: number;
