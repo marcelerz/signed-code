@@ -22,13 +22,13 @@ import TestModule from "TestModule";
 TestModule.someCall(24, 67);
 
 function printEverything() {
-    // <Manual-Section init-code START>
+    // <Manual-Section START init-code>
     console.log("42 is the answer!");
     // <Manual-Section END>
 }
 
 function someOtherFunction() {
-    // <Manual-Section more-code START>
+    // <Manual-Section START more-code>
     console.log("I don't know");
     // <Manual-Section END>
 }
@@ -73,10 +73,13 @@ describe("signedCode", () => {
 		expect(instance.getVersion()).toStrictEqual(368);
 	});
 
-	it("gets the manual sections", () => {
-		const instance = new SignedCode(signedTestCode(validChecksum));
-		expect(instance.getManualSections()).toMatchSnapshot();
-	});
+        it("gets the manual sections", () => {
+                const instance = new SignedCode(signedTestCode(validChecksum));
+                expect(instance.getManualSections()).toStrictEqual({
+                        "init-code": { code: "\n    console.log(\"42 is the answer!\");\n" },
+                        "more-code": { code: "\n    console.log(\"I don't know\");\n" },
+                });
+        });
 
 	it("resigns code", () => {
 		const instance = new SignedCode(signedTestCode(invalidChecksum));
